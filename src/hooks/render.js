@@ -21,15 +21,12 @@ export const useRender = (jsonUri) => {
       fetch(jsonUri)
         .then((response) => response.json())
         .then((init) => {
-          console.log(init)
           newTodos.TODOS = [init.TODOS]
           dispatch(initTodo(init.TODOS))
           isFirstRender.current = false
           return
         })
     }
-
-    console.log(newTodos)
 
     // 2回目以降のレンダリング後の処理
     fetch(jsonUri, {
