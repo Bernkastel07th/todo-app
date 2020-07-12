@@ -1,3 +1,0 @@
-[submodule "mock-server"]
-	path = mock-server
-	url = git@github.com:Bernkastel07th/mock-server.git
