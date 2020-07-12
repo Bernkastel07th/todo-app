@@ -1,0 +1,20 @@
+{
+  "get_todos": {
+    "TODOS": [
+      {
+        "id": 1,
+        "text": "todo1",
+        "isComplete": false
+      },
+      {
+        "id": 2,
+        "text": "todo2",
+        "isComplete": false
+      },
+      {
+        "text": "todo3",
+        "isComplete": true
+      }
+    ]
+  }
+}
